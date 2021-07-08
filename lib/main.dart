@@ -131,7 +131,6 @@ class _MyHomePageState extends State<MyHomePage> {
             child: PageView(
               controller: _pageController,
               scrollDirection: Axis.horizontal,
-              //onPageChanged: (pageIndex)=>_currentPage.value = pageIndex as double,
               children: _pages,
             ),
           ),
